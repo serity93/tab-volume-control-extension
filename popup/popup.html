@@ -8,21 +8,25 @@
     <!-- Local Bootstrap CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
 
-    <style>
-      body {
-        text-align: center;
-        padding: 20px;
-      }
-    </style>
+    <link rel="stylesheet" href="popup.css" />
   </head>
 
   <body>
-    <h1 class="text-primary">Hello, World!</h1>
-    <button id="helloButton" type="button" class="btn btn-primary">Click me!</button>
+    <div class="container py-4">
+      <h2 class="text-center mb-4">Volume Control</h2>
+      <div class="mb-3">
+        <label for="volumeSlider" class="form-label">Volume</label>
+        <input type="range" class="form-range" min="0" max="100" id="volumeSlider" value="100" />
+      </div>
+      <div class="d-grid">
+        <button id="muteButton" class="btn btn-danger">Mute</button>
+      </div>
+    </div>
 
     <!-- Local Bootstrap JS and dependencies -->
-    <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+
     <script src="popup.js"></script>
   </body>
 </html>
