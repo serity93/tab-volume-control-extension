@@ -1,13 +1,13 @@
 {
-    "manifest_version": 3,
-    "name": "Tab Volume Control",
-    "version": "1.0",
-    "description": "A Chrome extension to control the volume of individual tabs.",
-    "action": {
-        "default_popup": "popup/popup.html",
-        "default_icon": {
-            "48": "images/icon48.png"
-        }
-    },
-    "permissions": []
+  "manifest_version": 3,
+  "name": "Tab Volume Control",
+  "version": "1.0",
+  "description": "A Chrome extension to control the volume of individual tabs.",
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "48": "images/icon48.png"
+    }
+  },
+  "permissions": []
 }
