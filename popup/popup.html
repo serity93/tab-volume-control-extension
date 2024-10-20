@@ -18,9 +18,10 @@
         <label for="volumeSlider" class="form-label">Volume</label>
         <input type="range" class="form-range" min="0" max="100" id="volumeSlider" value="100" />
       </div>
-      <div class="d-grid">
-        <button id="muteButton" class="btn btn-danger">Mute</button>
-      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="muteToggle">
+        <label class="form-check-label" for="muteToggle">Mute</label>
+    </div>
     </div>
 
     <!-- Local Bootstrap JS and dependencies -->
